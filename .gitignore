@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Uploads (if stored locally)
+uploads/
+server/data/artefacts.local.json
+server/data/artefacts.local.json.*.tmp
+
+# Persistent AI feature index
+ai_agent_service/data/

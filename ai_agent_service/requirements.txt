@@ -1,0 +1,41 @@
+# ── Web Framework ──────────────────────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+python-multipart
+
+# ── Image Processing ───────────────────────────────────────────────────────────
+opencv-python-headless
+numpy
+Pillow
+scikit-image
+
+# ── OCR ────────────────────────────────────────────────────────────────────────
+pytesseract
+easyocr
+
+# ── ML / Embeddings ────────────────────────────────────────────────────────────
+torch
+torchvision
+sentence-transformers
+scikit-learn
+
+# ── LangChain ─────────────────────────────────────────────────────────────────
+langchain
+langchain-community
+langchain-core
+langchain-openai
+openai
+
+# ── Data / Config ─────────────────────────────────────────────────────────────
+pydantic
+pydantic-settings
+python-dotenv
+aiofiles
+httpx
+
+# ── PDF / Report Generation ───────────────────────────────────────────────────
+reportlab
+fpdf2
+
+# ── Logging / Monitoring ──────────────────────────────────────────────────────
+loguru
